@@ -2,9 +2,9 @@
 
 Aplicativo para Windows 11 de 64 bits que permite guardar uma assinatura manuscrita e colocá-la em PDFs, no Word e no Google Docs. O site tem uma demonstração com assinatura fictícia que você pode mover e redimensionar. [Conheça o Signature Factory](https://haduka1.github.io/signature-factory/)
 
-## Obter a prévia
+## Como obter o aplicativo
 
-Os instaladores públicos ficam na seção **Releases**. Quando a prévia **0.8.9** estiver disponível, abra seus **Assets** e procure `SignatureFactory-0.8.9-Preview-Setup-x64.exe`. O site também exibe o botão **Baixar para Windows** quando o instalador da versão está disponível. [Consultar versões](https://github.com/Haduka1/signature-factory/releases) · [Instalação e primeiros passos](https://haduka1.github.io/signature-factory/ajuda.html)
+A distribuição está prevista pela **Microsoft Store**, em compra única. A ficha da loja ainda não foi publicada. Este repositório é o local de documentação e suporte do projeto. [Ajuda do aplicativo](https://haduka1.github.io/signature-factory/ajuda.html)
 
 ## Ajuda e suporte
 

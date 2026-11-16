@@ -1,0 +1,23 @@
+# Repositório público de apresentação. Cada arquivo publicado tem uma exceção explícita.
+*
+!/.gitignore
+!/.nojekyll
+!/README.md
+!/ajuda.html
+!/condicoes.html
+!/index.html
+!/privacidade.html
+!/publicacao.js
+!/assets/
+!/assets/icone.png
+!/assets/programas-conectados.png
+!/assets/site.css
+!/assets/site.js
+!/assets/fonts/
+!/assets/fonts/Rubrica.woff2
+!/assets/fonts/Sans.woff2
+!/assets/fonts/Serif.woff2
+!/assets/fonts/SerifItalic.woff2
+!/assets/fonts/dmsans-OFL.txt
+!/assets/fonts/explora-OFL.txt
+!/assets/fonts/instrumentserif-OFL.txt
