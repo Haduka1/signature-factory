@@ -10,4 +10,8 @@ A distribuição está prevista pela **Microsoft Store**, em compra única. A fi
 
 Para relatar um problema, abra um chamado no GitHub Issues com a versão do aplicativo, o que você tentou fazer e a mensagem exibida. Você precisa de uma conta GitHub para abrir o chamado. Os relatos são públicos. Use exemplos fictícios e nunca publique documentos pessoais, imagens de assinaturas ou seu PIN. [Abrir um chamado](https://github.com/Haduka1/signature-factory/issues/new)
 
+## Privacidade da extensão
+
+A política explica o uso local das assinaturas, as permissões do navegador, as cópias em documentos online e os controles de exclusão. [Política de privacidade da extensão para Microsoft Edge](https://haduka1.github.io/signature-factory/privacidade-extensao.html)
+
 **Responsável pelo projeto:** Gabriel Augusto de Carvalho Capocchi. [Privacidade](https://haduka1.github.io/signature-factory/privacidade.html) · [Condições de uso da prévia](https://haduka1.github.io/signature-factory/condicoes.html)
