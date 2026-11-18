@@ -12,6 +12,6 @@ Para relatar um problema, abra um chamado no GitHub Issues com a versão do apli
 
 ## Privacidade da extensão
 
-A política explica o uso local das assinaturas, as permissões do navegador, as cópias em documentos online e os controles de exclusão. [Política de privacidade da extensão para Microsoft Edge](https://haduka1.github.io/signature-factory/privacidade-extensao.html)
+A política explica o uso local das assinaturas, as permissões do navegador, as cópias em documentos online e os controles de exclusão. [Política de privacidade da extensão para Microsoft Edge e Google Chrome](https://haduka1.github.io/signature-factory/privacidade-extensao.html)
 
 **Responsável pelo projeto:** Gabriel Augusto de Carvalho Capocchi. [Privacidade](https://haduka1.github.io/signature-factory/privacidade.html) · [Condições de uso da prévia](https://haduka1.github.io/signature-factory/condicoes.html)
