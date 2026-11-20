@@ -23,7 +23,7 @@
     <p class="section-kicker">Política de privacidade · Extensão para Microsoft Edge e Google Chrome</p>
     <h1>Suas assinaturas.<br><em>Sob seu controle.</em></h1>
     <p class="lede">Sua coleção fica no computador. A extensão usa as assinaturas para executar as ações que você escolhe, sem enviá-las ao desenvolvedor.</p>
-    <p>Atualizada em <time datetime="2026-11-18">18 de novembro de 2026</time>. Esta política descreve a extensão Signature Factory 0.8.10 para Microsoft Edge e Google Chrome, a versão anterior 0.8.9 (pacote R2) para Edge e sua comunicação com o aplicativo para Windows. Na versão 0.8.10, os textos em português, inglês e espanhol estão incluídos no pacote; a tradução não envia dados a um serviço externo.</p>
+    <p>Atualizada em <time datetime="2026-11-20">20 de novembro de 2026</time>. Esta política abrange as versões 0.8.9 (R2) a 0.8.12 da extensão Signature Factory e sua comunicação com o aplicativo para Windows. Os recursos disponíveis dependem da versão instalada. A partir da versão 0.8.10, os textos em português, inglês e espanhol acompanham o pacote e são exibidos localmente.</p>
   </header>
   <section aria-labelledby="responsavel">
     <h2 id="responsavel">1. Finalidade e responsável</h2>
@@ -32,7 +32,7 @@
   </section>
   <section aria-labelledby="uso-local">
     <h2 id="uso-local">2. Uso local, sem envio ao desenvolvedor</h2>
-    <p>As assinaturas e os nomes salvos no aplicativo ficam no seu computador. A extensão consulta essa coleção por um canal local do Windows e recebe a imagem quando você seleciona uma assinatura.</p>
+    <p>As assinaturas e os nomes salvos no aplicativo ficam no seu computador. Ao instalar a extensão ou iniciar o navegador, ela pode confirmar a conexão com o aplicativo por um canal local do Windows. Ao abrir a lista, a extensão consulta os nomes e as informações necessárias à busca. A imagem é solicitada quando você escolhe uma assinatura.</p>
     <p>Não mantemos um servidor com cópias da sua coleção. A extensão não envia ao desenvolvedor suas assinaturas, documentos, pesquisas ou histórico de navegação. Não inclui publicidade, ferramentas de análise de uso ou rastreadores.</p>
     <p>Os dados acessados pela extensão são utilizados exclusivamente para as funções descritas nesta política. Não os vendemos, alugamos nem utilizamos para publicidade, criação de perfis, avaliação de crédito, concessão de empréstimos ou treinamento de modelos de inteligência artificial.</p>
     <p><strong>Compromisso de uso limitado no Chrome.</strong> O uso e a transferência de dados de usuários pela extensão, incluindo informações recebidas de APIs do Google, cumprem a <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq">Política de Dados do Usuário da Chrome Web Store</a> e os <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">requisitos de Uso Limitado (Limited Use)</a>. Utilizamos esses dados somente para a finalidade declarada. O desenvolvedor não recebe nem acessa a coleção local; o envio de uma assinatura ao documento escolhido ocorre por ação do usuário, conforme a seção 5.</p>
@@ -50,8 +50,10 @@
   </section>
   <section aria-labelledby="permissoes">
     <h2 id="permissoes">4. Permissões da extensão</h2>
-    <p>As permissões solicitadas permitem identificar o contexto da aba ativa, comunicar-se com o aplicativo local, oferecer o comando de assinatura no menu de contexto, mostrar o painel lateral e escrever a assinatura escolhida na área de transferência. A integração de interface com o Google Docs apresenta o controle de assinatura nesse editor. Quando você aciona a opção correspondente, a extensão também pode copiar para a área de transferência o código de instalação do suplemento Google incluído no pacote. A extensão não lê nem monitora o conteúdo da área de transferência.</p>
-    <p>Essas permissões não dão ao desenvolvedor acesso remoto ao seu computador. Os scripts executados pela extensão fazem parte do pacote instalado; ela não baixa código de um servidor para executá-lo. Os suplementos do Word e do Google Docs são componentes separados, sujeitos às autorizações de cada plataforma.</p>
+    <p>As permissões da extensão permitem identificar a aba ativa, comunicar-se com o aplicativo Windows, mostrar o painel lateral e acrescentar o comando <strong>Assinar…</strong> ao menu do botão direito nos editores compatíveis. No Google Docs, a versão 0.8.12 oferece a imagem diretamente ao editor para inserção no documento aberto. Esse fluxo dispensa a instalação de um suplemento do Apps Script.</p>
+    <p><strong>Cópia e colagem.</strong> A permissão de escrita permite copiar a assinatura escolhida para a área de transferência do sistema. No Word para a Web, a extensão pode então acionar o comando Colar no documento. No Google Docs, a colagem também está disponível quando a inserção direta não é concluída.</p>
+    <p><strong>Leitura opcional da área de transferência.</strong> A colagem automática usa a permissão <code>clipboardRead</code>, que você pode aceitar ou recusar no navegador. Durante essa operação, a extensão verifica localmente se o conteúdo a colar corresponde à assinatura que você escolheu. Se o conteúdo for diferente, a colagem automática é cancelada. Essa verificação ocorre apenas durante a colagem, sem monitoramento em segundo plano, criação de histórico pela extensão ou envio do conteúdo da área de transferência ao desenvolvedor. Você também pode colar manualmente com <kbd>Ctrl</kbd>+<kbd>V</kbd>.</p>
+    <p>O código da extensão acompanha o pacote instalado. Se você escolher configurar o complemento opcional do Google Docs, a extensão pode copiar o código de instalação incluído no pacote. Os suplementos do Word e do Google Docs têm autorizações próprias.</p>
   </section>
   <section aria-labelledby="destinos">
     <h2 id="destinos">5. Você escolhe o destino</h2>
